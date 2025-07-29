@@ -368,6 +368,6 @@ root_agent = Agent(
 
     If the user asks anything else, just respond normally without using tools.
 """,
-    description="An assistant that can perform basic addition.",
+    description="An assistant that can perform home automation tasks.",
     tools=[turn_on_light, turn_off_light, set_light_hsv, get_light_state, set_light_brightness]
 )
